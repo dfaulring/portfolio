@@ -1,10 +1,14 @@
-import ContactForm from './components/ContactForm';
+import GlobalStyles from './globalStyles';
+import Contact from './components/Contact';
 
 export default function App() {
   return (
-    <main>
-      {/* Contact Section */}
-      <ContactForm />
-    </main>
+    <>
+      <GlobalStyles />
+      <main>
+        {/* Contact Section */}
+        <Contact />
+      </main>
+    </>
   );
 }

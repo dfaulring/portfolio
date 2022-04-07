@@ -12,7 +12,7 @@ const StyledFormGroup = styled.div`
   flex-direction: column;
 
   input {
-    height: 48px;
+    height: 4.8rem;
     padding-left: 8px;
   }
 
@@ -27,7 +27,7 @@ const StyledFormGroup = styled.div`
 `;
 
 const StyledButton = styled.button`
-  height: 48px;
+  height: 4.8rem;
 `;
 
 export default function ContactForm() {
