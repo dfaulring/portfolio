@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import ContactForm from './ContactForm';
 
-const StyledSection = styled.section`
-
-`;
+const StyledSection = styled.section``;
 
 const StyledTitle = styled.h2`
   text-align: center;
@@ -13,9 +11,7 @@ const StyledTitle = styled.h2`
 export default function Contact() {
   return (
     <StyledSection>
-      <StyledTitle>
-        Contact
-      </StyledTitle>
+      <StyledTitle>Contact</StyledTitle>
       <ContactForm />
     </StyledSection>
   );

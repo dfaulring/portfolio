@@ -1,4 +1,5 @@
 import GlobalStyles from './globalStyles';
+import Hero from './components/Hero';
 import Contact from './components/Contact';
 
 export default function App() {
@@ -6,6 +7,8 @@ export default function App() {
     <>
       <GlobalStyles />
       <main>
+        {/* Hero Section */}
+        <Hero />
         {/* Contact Section */}
         <Contact />
       </main>
