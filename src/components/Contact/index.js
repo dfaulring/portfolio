@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 import ContactForm from './ContactForm';
 
-const StyledSection = styled.section``;
+const StyledSection = styled.section`
+  max-width: 1536px;
+  margin: 0 auto;
+`;
 
 const StyledTitle = styled.h2`
   text-align: center;

@@ -5,20 +5,37 @@ import { useForm } from 'react-hook-form';
 const StyledForm = styled.form`
   display: flex;
   flex-direction: column;
+  max-width: 768px;
+  margin: 0 auto;
 `;
 
 const StyledFormGroup = styled.div`
   display: flex;
   flex-direction: column;
 
+  &:not(:first-of-type) {
+    margin-top: 1.6rem;
+  }
+
+  label {
+    margin-bottom: 0.4rem;
+  }
+
   input {
     height: 4.8rem;
     padding-left: 8px;
+    border: 1px solid #0d0d0d;
+    outline: none;
+    border-radius: 0.8rem;
   }
 
   textarea {
     resize: none;
     height: 160px;
+    border: 1px solid #0d0d0d;
+    outline: none;
+    border-radius: 0.8rem;
+    padding: 0.8rem;
   }
 
   .error-message {
@@ -28,6 +45,11 @@ const StyledFormGroup = styled.div`
 
 const StyledButton = styled.button`
   height: 4.8rem;
+  outline: none;
+  border: none;
+  border-radius: 0.8rem;
+  margin-top: 1.6rem;
+  cursor: pointer;
 `;
 
 export default function ContactForm() {
