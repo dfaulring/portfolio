@@ -10,12 +10,13 @@ export default createGlobalStyle`
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     background-color: #fef9f8;
-    color: #0d0d0d;
+    color: #2f2f2f;
   }
 
   h1, h2, h3 {
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
+    margin: 0;
   }
 
   button {

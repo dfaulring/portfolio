@@ -1,6 +1,5 @@
 import GlobalStyles from './globalStyles';
 import Hero from './components/Hero';
-import Contact from './components/Contact';
 
 export default function App() {
   return (
@@ -9,8 +8,6 @@ export default function App() {
       <main>
         {/* Hero Section */}
         <Hero />
-        {/* Contact Section */}
-        <Contact />
       </main>
     </>
   );
