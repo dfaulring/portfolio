@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  padding: 1rem;
+  min-height: 100%;
+  background-color: #fdfbf5;
+  color: #191919;
+  font-family: var(--font-satoshi);
+}
