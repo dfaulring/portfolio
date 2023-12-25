@@ -20,14 +20,19 @@ export default function Projects() {
           <AnimatedVerticalLine />
           <div className='grid grid-cols-1 gap-12'>
             <div className='relative lg:pb-8'>
-              <a className='block' href='https://www.scalis.ai' target='_blank'>
-                <div className='relative pt-[56.25%] bg-[#0020D3] rounded-2xl'>
+              <a
+                className='block'
+                href='https://www.winc.com'
+                target='_blank'
+                rel='noreferrer'
+              >
+                <div className='relative pt-[56.25%] bg-black rounded-2xl'>
                   <div className='absolute inset-0 w-full h-full flex items-center justify-center'>
                     <img
-                      src='/scalis-logo-white.svg'
+                      src='/winc-logo-white.png'
                       width={127}
                       height={25}
-                      alt='Scalis logo'
+                      alt='Winc logo'
                     />
                   </div>
                 </div>
@@ -44,6 +49,7 @@ export default function Projects() {
                 className='block'
                 href='https://www.wineinsiders.com'
                 target='_blank'
+                rel='noreferrer'
               >
                 <div className='relative pt-[56.25%] bg-[#AD1A27] rounded-2xl'>
                   <div className='absolute inset-0 w-full h-full flex items-center justify-center'>
@@ -67,6 +73,7 @@ export default function Projects() {
                 className='block'
                 href='https://www.yoursuper.com'
                 target='_blank'
+                rel='noreferrer'
               >
                 <div className='relative pt-[56.25%] bg-[#fcf7f0] rounded-2xl'>
                   <div className='absolute inset-0 w-full h-full flex items-center justify-center'>
@@ -87,6 +94,7 @@ export default function Projects() {
                 className='block'
                 href='https://www.florencebymills.com'
                 target='_blank'
+                rel='noreferrer'
               >
                 <div className='relative pt-[56.25%] bg-[#A3A7E4] rounded-2xl'>
                   <div className='absolute inset-0 w-full h-full flex items-center justify-center'>
@@ -110,6 +118,7 @@ export default function Projects() {
                 className='block'
                 href='https://www.ellaola.com'
                 target='_blank'
+                rel='noreferrer'
               >
                 <div className='relative pt-[56.25%] bg-[#c5d9f3] rounded-2xl'>
                   <div className='absolute inset-0 w-full h-full flex items-center justify-center'>
