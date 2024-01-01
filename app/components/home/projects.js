@@ -37,7 +37,7 @@ export default function Projects() {
                   </div>
                 </div>
                 <div className='mt-4 flex justify-between items-center'>
-                  <h3 className='font-syne text-2xl font-light'>Scalis</h3>
+                  <h3 className='font-syne text-2xl font-light'>Winc</h3>
                   <p className='font-roboto-mono font-light'>2023</p>
                 </div>
               </a>
