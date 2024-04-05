@@ -31,6 +31,7 @@ export let handle = {
 export default function App() {
   let { locale } = useLoaderData<typeof loader>()
   let { i18n } = useTranslation()
+
   useChangeLanguage(locale)
 
   return (

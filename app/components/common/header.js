@@ -1,8 +1,15 @@
 import { useState } from 'react'
 import AnimatedLine from '../home/animated-line'
+// import { useTranslation } from 'react-i18next'
 
 export default function Header() {
   const [open, setOpen] = useState(false)
+
+  // let { i18n } = useTranslation()
+
+  // const changeLanguage = (lng) => {
+  //   i18n.changeLanguage(lng)
+  // }
 
   return (
     <nav className='px-6 md:px-12 relative'>
@@ -10,6 +17,9 @@ export default function Header() {
         <a className='flex items-center' href='/'>
           <span className='text-4xl uppercase'>(DF)</span>
         </a>
+        {/* 
+        <button onClick={() => changeLanguage('en')}>en</button>
+        <button onClick={() => changeLanguage('es')}>es</button> */}
 
         <ul className='hidden items-center md:flex'>
           <li className='ml-8'>
