@@ -10,7 +10,7 @@ export default function Hero() {
         <div className='grid grid-cols-1 gap-12 lg:grid-cols-2'>
           <div>
             <h2 className='font-syne text-6xl sm:text-8xl'>
-              <span>Full Stack</span> Developer{t('greeting')}
+              <span>Full Stack</span> Developer {t('greeting')}
             </h2>
             <p className='mt-4 text-2xl max-w-xl font-light leading-[1.5] sm:text-3xl'>
               Hi! I&apos;m Dominic Faulring, a Seattle-based full-stack
@@ -23,7 +23,7 @@ export default function Hero() {
             alt='Placeholder'
             width={500}
             height={500}
-            priority={true}
+            priority='true'
           />
         </div>
         <AnimatedLine />
