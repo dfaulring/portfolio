@@ -1,5 +1,5 @@
 export default {
-  supportedLngs: ['en', 'es'],
+  supportedLngs: ['en', 'ja'],
   fallbackLng: 'en',
   defaultNS: 'common',
 }

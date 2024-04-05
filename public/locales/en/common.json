@@ -1,4 +1,15 @@
 {
   "greeting": "Hello",
-  "full_name": "Dominic Faulring"
+  "full_name": "Dominic Faulring",
+  "about": "Hi! I'm Dominic Faulring, a Seattle-based full-stack developer passionate about creating impactful web solutions.",
+  "current_role": "Full Stack Developer",
+  "my_stack": "My Stack",
+  "projects": "Projects",
+  "contact": "Contact",
+  "recent_projects": "Recent Projects",
+  "contact_copy": "Passionate about the web or have an interesting opportunity to share?",
+  "input_name": "Name",
+  "input_email": "Email",
+  "input_message": "Message",
+  "submit": "Submit"
 }

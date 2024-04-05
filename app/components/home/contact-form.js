@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 
 export default function ContactForm() {
+  let { t } = useTranslation()
   const [submitting, setSubmitting] = useState(false)
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -68,7 +70,7 @@ export default function ContactForm() {
             type='text'
             id='name'
             name='name'
-            placeholder='Name'
+            placeholder={t('input_name')}
             autoComplete='name'
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -84,7 +86,7 @@ export default function ContactForm() {
             type='email'
             id='email'
             name='email'
-            placeholder='Email'
+            placeholder={t('input_email')}
             autoComplete='email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -99,7 +101,7 @@ export default function ContactForm() {
             className='outline-none border-b border-black bg-none p-2 resize-none h-48 font-roboto-mono bg-[rgba(0,_0,_0,_0)] focus:bg-[rgba(0,_0,_0,_.05)]'
             id='message'
             name='message'
-            placeholder='Message'
+            placeholder={t('input_message')}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
@@ -148,7 +150,7 @@ export default function ContactForm() {
             type='submit'
           >
             <span className='inline-block lg:transition-all lg:duration-200 lg:group-hover:-translate-y-[125%]'>
-              Submit
+              {t('submit')}
             </span>
           </button>
         )}

@@ -1,8 +1,11 @@
+import { useTranslation } from 'react-i18next'
 import AnimatedLine from './animated-line'
 import AnimatedVerticalLine from './animated-vertical-line'
 import ContactForm from './contact-form'
 
 export default function Contact() {
+  let { t } = useTranslation()
+
   return (
     <section id='contact' className='px-6 md:px-12'>
       <div className='relative py-8 md:py-16'>
@@ -10,11 +13,10 @@ export default function Contact() {
           <div className='flex flex-col justify-between'>
             <div>
               <p className='uppercase font-roboto-mono font-light tracking-widest'>
-                Contact
+                {t('contact')}
               </p>
               <p className='font-syne mt-4 text-4xl lg:text-5xl'>
-                Passionate about the web or have an interesting opportunity to
-                share?
+                {t('contact_copy')}
               </p>
             </div>
 
@@ -24,6 +26,7 @@ export default function Contact() {
                   className='w-full h-full flex items-center justify-center'
                   href='https://www.linkedin.com/in/dominicfaulring'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   LI
                   <span className='sr-only'>LinkedIn</span>
@@ -34,6 +37,7 @@ export default function Contact() {
                   className='w-full h-full flex items-center justify-center'
                   href='https://www.github.com/dfaulring'
                   target='_blank'
+                  rel='noreferrer'
                 >
                   GH
                   <span className='sr-only'>Github</span>

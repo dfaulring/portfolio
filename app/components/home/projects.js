@@ -1,7 +1,10 @@
+import { useTranslation } from 'react-i18next'
 import AnimatedLine from './animated-line'
 import AnimatedVerticalLine from './animated-vertical-line'
 
 export default function Projects() {
+  let { t } = useTranslation()
+
   return (
     <section id='projects' className='px-6 md:px-12'>
       <div className='relative py-8 md:py-16'>
@@ -9,7 +12,7 @@ export default function Projects() {
           <div>
             <div className='sticky top-12'>
               <h2 className='uppercase font-syne text-5xl font-normal leading-1.2 lg:text-6xl'>
-                Recent Projects
+                {t('recent_projects')}
               </h2>
               {/* <p className='mt-4 text-2xl'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
