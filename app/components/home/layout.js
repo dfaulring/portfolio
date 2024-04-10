@@ -15,9 +15,9 @@ const satoshi = localFont({
 })
 
 export const metadata = {
-  title: 'Dominic Faulring | Full Stack Developer',
+  title: 'Dominic Faulring | Full Stack Engineer',
   description:
-    'Hi! I&apos;m Dominic Faulring, a Seattle-based full-stack developer passionate about creating impactful web solutions.',
+    'Hi! I&apos;m Dominic Faulring, a Seattle-based full stack engineer passionate about creating impactful web solutions.',
 }
 
 export default function RootLayout({ children }) {
